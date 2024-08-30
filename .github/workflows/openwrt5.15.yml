@@ -34,10 +34,6 @@ env:
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
-runs:
-  using: 'node20'
-  main: 'main.js'
-
 jobs:
   build:
     runs-on: ubuntu-20.04
